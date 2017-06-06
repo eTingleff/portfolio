@@ -1,0 +1,117 @@
+body {
+ background:url(https://res.cloudinary.com/dgeerqa21/image/upload/v1496535902/variation2_ke4ufx.png)center no-repeat fixed;
+}
+
+h2{
+   font-size: 700%;
+   text-decoration:underline overline;
+   margin-right:80%;
+   padding-top:60px;
+   margin-top: 190px;
+   margin-bottom:10%;
+}
+
+.portfolioContent{
+  background-color:rgba(75,75,75,0.75);
+  margin-left:15%;
+  margin-right:15%;
+  padding:25px;
+  width:auto;
+  min-width:300px;
+  border:3px solid rgba(50,50,50,0.9);
+  border-radius:10px;
+  align-content:center;
+  padding-top:60px;
+}
+
+.row {
+  flex-basis:20%;
+  margin-left:auto;
+  display:flex;
+  flex-flow:wrap;
+  margin-bottom:15px;
+  align-items:center;
+  justify-content:center;
+  width:auto;
+}
+
+.contact{
+  text-align:center;
+}
+
+.headshot {
+  max-width:175px;
+  border:solid 5px;
+}
+
+.portItem {
+  padding-right:50px;
+  padding-left:20px;
+  text-align:center;
+  min-width:200px;
+  max-width:300px;
+  margin-bottom:60px;
+}
+
+.img-thumbnail {
+  margin-bottom:5px;
+}
+
+.portItem:hover .img-thumbnail {
+  transition:0.35s ease;
+  transform:scale(1.075,1.075);
+  filter:brightness(112%);
+}
+
+h4 {
+  font-family:'Exo 2', sans-serif;
+  color:white;
+}
+
+.portItem:hover h4 {
+  text-decoration:underline overline;
+}
+
+p {
+   border-style:solid;
+   border-width:5px;
+   background-color:gray;
+   padding-left:10%;
+   padding-right:10%;
+}
+
+.vertical_center {
+   display:flex;
+   align-items:center;
+}
+
+.list {
+   border-style:solid;
+   border-width:5px;
+   background-color:gray;
+   padding-left:1%;
+   padding-right:1%;
+   padding-top:2%;
+   padding-bottom:2%;
+}
+
+.btn-group {
+  text-align:center;
+  border-radius:5px;
+  border:solid 1px;
+}
+
+.btn-group .btn {
+  padding:0px;
+  width:45px;
+}
+
+.fa-free-code-camp {
+  padding-top:8px;
+  padding-bottom:7px;
+}
+
+footer {
+  margin-bottom:30px;
+  margin-top:75px;
+}
